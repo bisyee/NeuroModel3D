@@ -1,4 +1,4 @@
-# NeuroStream 3D | fMRI Visualizer
+# NeuroModel 3D | fMRI Visualizer
 
 **NeuroStream 3D** is an interactive web-based platform for exploring 4D fMRI data. It combines 3D spatial brain mapping with real-time functional connectivity analysis, utilizing "Scented Widgets" to guide temporal navigation.
 
@@ -49,3 +49,4 @@ This creates a "data card" on the right sidebar.Clicking the snapshot image will
 ## Contributors
 Bisera Nikoloska
 Kristjan Volk
+
