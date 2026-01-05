@@ -1,0 +1,1478 @@
+{
+  "1": {
+    "region_id": 1,
+    "mesh": "region_1.glb",
+    "n_vertices": 3702,
+    "n_faces": 7436
+  },
+  "2": {
+    "region_id": 2,
+    "mesh": "region_2.glb",
+    "n_vertices": 4072,
+    "n_faces": 8164
+  },
+  "3": {
+    "region_id": 3,
+    "mesh": "region_3.glb",
+    "n_vertices": 4240,
+    "n_faces": 8484
+  },
+  "4": {
+    "region_id": 4,
+    "mesh": "region_4.glb",
+    "n_vertices": 3622,
+    "n_faces": 7240
+  },
+  "5": {
+    "region_id": 5,
+    "mesh": "region_5.glb",
+    "n_vertices": 4158,
+    "n_faces": 8304
+  },
+  "6": {
+    "region_id": 6,
+    "mesh": "region_6.glb",
+    "n_vertices": 4352,
+    "n_faces": 8700
+  },
+  "7": {
+    "region_id": 7,
+    "mesh": "region_7.glb",
+    "n_vertices": 3213,
+    "n_faces": 6426
+  },
+  "8": {
+    "region_id": 8,
+    "mesh": "region_8.glb",
+    "n_vertices": 3403,
+    "n_faces": 6826
+  },
+  "9": {
+    "region_id": 9,
+    "mesh": "region_9.glb",
+    "n_vertices": 3511,
+    "n_faces": 7022
+  },
+  "10": {
+    "region_id": 10,
+    "mesh": "region_10.glb",
+    "n_vertices": 3138,
+    "n_faces": 6272
+  },
+  "11": {
+    "region_id": 11,
+    "mesh": "region_11.glb",
+    "n_vertices": 3184,
+    "n_faces": 6372
+  },
+  "12": {
+    "region_id": 12,
+    "mesh": "region_12.glb",
+    "n_vertices": 4019,
+    "n_faces": 8038
+  },
+  "13": {
+    "region_id": 13,
+    "mesh": "region_13.glb",
+    "n_vertices": 4412,
+    "n_faces": 8832
+  },
+  "14": {
+    "region_id": 14,
+    "mesh": "region_14.glb",
+    "n_vertices": 3696,
+    "n_faces": 7388
+  },
+  "15": {
+    "region_id": 15,
+    "mesh": "region_15.glb",
+    "n_vertices": 3959,
+    "n_faces": 7918
+  },
+  "16": {
+    "region_id": 16,
+    "mesh": "region_16.glb",
+    "n_vertices": 3952,
+    "n_faces": 7900
+  },
+  "17": {
+    "region_id": 17,
+    "mesh": "region_17.glb",
+    "n_vertices": 4007,
+    "n_faces": 8030
+  },
+  "18": {
+    "region_id": 18,
+    "mesh": "region_18.glb",
+    "n_vertices": 3117,
+    "n_faces": 6222
+  },
+  "19": {
+    "region_id": 19,
+    "mesh": "region_19.glb",
+    "n_vertices": 3447,
+    "n_faces": 6902
+  },
+  "20": {
+    "region_id": 20,
+    "mesh": "region_20.glb",
+    "n_vertices": 3892,
+    "n_faces": 7784
+  },
+  "21": {
+    "region_id": 21,
+    "mesh": "region_21.glb",
+    "n_vertices": 4163,
+    "n_faces": 8318
+  },
+  "22": {
+    "region_id": 22,
+    "mesh": "region_22.glb",
+    "n_vertices": 3938,
+    "n_faces": 7876
+  },
+  "23": {
+    "region_id": 23,
+    "mesh": "region_23.glb",
+    "n_vertices": 4233,
+    "n_faces": 8462
+  },
+  "24": {
+    "region_id": 24,
+    "mesh": "region_24.glb",
+    "n_vertices": 3580,
+    "n_faces": 7168
+  },
+  "25": {
+    "region_id": 25,
+    "mesh": "region_25.glb",
+    "n_vertices": 3019,
+    "n_faces": 6038
+  },
+  "26": {
+    "region_id": 26,
+    "mesh": "region_26.glb",
+    "n_vertices": 3030,
+    "n_faces": 6056
+  },
+  "27": {
+    "region_id": 27,
+    "mesh": "region_27.glb",
+    "n_vertices": 3447,
+    "n_faces": 6890
+  },
+  "28": {
+    "region_id": 28,
+    "mesh": "region_28.glb",
+    "n_vertices": 4037,
+    "n_faces": 8074
+  },
+  "29": {
+    "region_id": 29,
+    "mesh": "region_29.glb",
+    "n_vertices": 1956,
+    "n_faces": 3908
+  },
+  "30": {
+    "region_id": 30,
+    "mesh": "region_30.glb",
+    "n_vertices": 1950,
+    "n_faces": 3896
+  },
+  "31": {
+    "region_id": 31,
+    "mesh": "region_31.glb",
+    "n_vertices": 2143,
+    "n_faces": 4278
+  },
+  "32": {
+    "region_id": 32,
+    "mesh": "region_32.glb",
+    "n_vertices": 1721,
+    "n_faces": 3442
+  },
+  "33": {
+    "region_id": 33,
+    "mesh": "region_33.glb",
+    "n_vertices": 1658,
+    "n_faces": 3312
+  },
+  "34": {
+    "region_id": 34,
+    "mesh": "region_34.glb",
+    "n_vertices": 1964,
+    "n_faces": 3924
+  },
+  "35": {
+    "region_id": 35,
+    "mesh": "region_35.glb",
+    "n_vertices": 1742,
+    "n_faces": 3480
+  },
+  "36": {
+    "region_id": 36,
+    "mesh": "region_36.glb",
+    "n_vertices": 1989,
+    "n_faces": 3974
+  },
+  "37": {
+    "region_id": 37,
+    "mesh": "region_37.glb",
+    "n_vertices": 2744,
+    "n_faces": 5484
+  },
+  "38": {
+    "region_id": 38,
+    "mesh": "region_38.glb",
+    "n_vertices": 2827,
+    "n_faces": 5654
+  },
+  "39": {
+    "region_id": 39,
+    "mesh": "region_39.glb",
+    "n_vertices": 1689,
+    "n_faces": 3378
+  },
+  "40": {
+    "region_id": 40,
+    "mesh": "region_40.glb",
+    "n_vertices": 1634,
+    "n_faces": 3260
+  },
+  "41": {
+    "region_id": 41,
+    "mesh": "region_41.glb",
+    "n_vertices": 2676,
+    "n_faces": 5344
+  },
+  "42": {
+    "region_id": 42,
+    "mesh": "region_42.glb",
+    "n_vertices": 2904,
+    "n_faces": 5804
+  },
+  "43": {
+    "region_id": 43,
+    "mesh": "region_43.glb",
+    "n_vertices": 3073,
+    "n_faces": 6134
+  },
+  "44": {
+    "region_id": 44,
+    "mesh": "region_44.glb",
+    "n_vertices": 2964,
+    "n_faces": 5924
+  },
+  "45": {
+    "region_id": 45,
+    "mesh": "region_45.glb",
+    "n_vertices": 4058,
+    "n_faces": 8120
+  },
+  "46": {
+    "region_id": 46,
+    "mesh": "region_46.glb",
+    "n_vertices": 5119,
+    "n_faces": 10234
+  },
+  "47": {
+    "region_id": 47,
+    "mesh": "region_47.glb",
+    "n_vertices": 3156,
+    "n_faces": 6316
+  },
+  "48": {
+    "region_id": 48,
+    "mesh": "region_48.glb",
+    "n_vertices": 3360,
+    "n_faces": 6740
+  },
+  "49": {
+    "region_id": 49,
+    "mesh": "region_49.glb",
+    "n_vertices": 4530,
+    "n_faces": 9076
+  },
+  "50": {
+    "region_id": 50,
+    "mesh": "region_50.glb",
+    "n_vertices": 3957,
+    "n_faces": 7914
+  },
+  "51": {
+    "region_id": 51,
+    "mesh": "region_51.glb",
+    "n_vertices": 3293,
+    "n_faces": 6586
+  },
+  "52": {
+    "region_id": 52,
+    "mesh": "region_52.glb",
+    "n_vertices": 2872,
+    "n_faces": 5740
+  },
+  "53": {
+    "region_id": 53,
+    "mesh": "region_53.glb",
+    "n_vertices": 5089,
+    "n_faces": 10186
+  },
+  "54": {
+    "region_id": 54,
+    "mesh": "region_54.glb",
+    "n_vertices": 3635,
+    "n_faces": 7290
+  },
+  "55": {
+    "region_id": 55,
+    "mesh": "region_55.glb",
+    "n_vertices": 3397,
+    "n_faces": 6790
+  },
+  "56": {
+    "region_id": 56,
+    "mesh": "region_56.glb",
+    "n_vertices": 3666,
+    "n_faces": 7324
+  },
+  "57": {
+    "region_id": 57,
+    "mesh": "region_57.glb",
+    "n_vertices": 3389,
+    "n_faces": 6786
+  },
+  "58": {
+    "region_id": 58,
+    "mesh": "region_58.glb",
+    "n_vertices": 3658,
+    "n_faces": 7320
+  },
+  "59": {
+    "region_id": 59,
+    "mesh": "region_59.glb",
+    "n_vertices": 1883,
+    "n_faces": 3762
+  },
+  "60": {
+    "region_id": 60,
+    "mesh": "region_60.glb",
+    "n_vertices": 2553,
+    "n_faces": 5106
+  },
+  "61": {
+    "region_id": 61,
+    "mesh": "region_61.glb",
+    "n_vertices": 2466,
+    "n_faces": 4928
+  },
+  "62": {
+    "region_id": 62,
+    "mesh": "region_62.glb",
+    "n_vertices": 2576,
+    "n_faces": 5148
+  },
+  "63": {
+    "region_id": 63,
+    "mesh": "region_63.glb",
+    "n_vertices": 3482,
+    "n_faces": 6960
+  },
+  "64": {
+    "region_id": 64,
+    "mesh": "region_64.glb",
+    "n_vertices": 2927,
+    "n_faces": 5854
+  },
+  "65": {
+    "region_id": 65,
+    "mesh": "region_65.glb",
+    "n_vertices": 2619,
+    "n_faces": 5254
+  },
+  "66": {
+    "region_id": 66,
+    "mesh": "region_66.glb",
+    "n_vertices": 3161,
+    "n_faces": 6334
+  },
+  "67": {
+    "region_id": 67,
+    "mesh": "region_67.glb",
+    "n_vertices": 2440,
+    "n_faces": 4876
+  },
+  "68": {
+    "region_id": 68,
+    "mesh": "region_68.glb",
+    "n_vertices": 2898,
+    "n_faces": 5792
+  },
+  "69": {
+    "region_id": 69,
+    "mesh": "region_69.glb",
+    "n_vertices": 3279,
+    "n_faces": 6570
+  },
+  "70": {
+    "region_id": 70,
+    "mesh": "region_70.glb",
+    "n_vertices": 3101,
+    "n_faces": 6202
+  },
+  "71": {
+    "region_id": 71,
+    "mesh": "region_71.glb",
+    "n_vertices": 3295,
+    "n_faces": 6610
+  },
+  "72": {
+    "region_id": 72,
+    "mesh": "region_72.glb",
+    "n_vertices": 2422,
+    "n_faces": 4836
+  },
+  "73": {
+    "region_id": 73,
+    "mesh": "region_73.glb",
+    "n_vertices": 4664,
+    "n_faces": 9352
+  },
+  "74": {
+    "region_id": 74,
+    "mesh": "region_74.glb",
+    "n_vertices": 4035,
+    "n_faces": 8078
+  },
+  "75": {
+    "region_id": 75,
+    "mesh": "region_75.glb",
+    "n_vertices": 3550,
+    "n_faces": 7104
+  },
+  "76": {
+    "region_id": 76,
+    "mesh": "region_76.glb",
+    "n_vertices": 2776,
+    "n_faces": 5556
+  },
+  "77": {
+    "region_id": 77,
+    "mesh": "region_77.glb",
+    "n_vertices": 2802,
+    "n_faces": 5616
+  },
+  "78": {
+    "region_id": 78,
+    "mesh": "region_78.glb",
+    "n_vertices": 3442,
+    "n_faces": 6892
+  },
+  "79": {
+    "region_id": 79,
+    "mesh": "region_79.glb",
+    "n_vertices": 3736,
+    "n_faces": 7476
+  },
+  "80": {
+    "region_id": 80,
+    "mesh": "region_80.glb",
+    "n_vertices": 3017,
+    "n_faces": 6030
+  },
+  "81": {
+    "region_id": 81,
+    "mesh": "region_81.glb",
+    "n_vertices": 3335,
+    "n_faces": 6678
+  },
+  "82": {
+    "region_id": 82,
+    "mesh": "region_82.glb",
+    "n_vertices": 3807,
+    "n_faces": 7614
+  },
+  "83": {
+    "region_id": 83,
+    "mesh": "region_83.glb",
+    "n_vertices": 4002,
+    "n_faces": 8008
+  },
+  "84": {
+    "region_id": 84,
+    "mesh": "region_84.glb",
+    "n_vertices": 4347,
+    "n_faces": 8710
+  },
+  "85": {
+    "region_id": 85,
+    "mesh": "region_85.glb",
+    "n_vertices": 3080,
+    "n_faces": 6164
+  },
+  "86": {
+    "region_id": 86,
+    "mesh": "region_86.glb",
+    "n_vertices": 2986,
+    "n_faces": 5968
+  },
+  "87": {
+    "region_id": 87,
+    "mesh": "region_87.glb",
+    "n_vertices": 4035,
+    "n_faces": 8074
+  },
+  "88": {
+    "region_id": 88,
+    "mesh": "region_88.glb",
+    "n_vertices": 4655,
+    "n_faces": 9306
+  },
+  "89": {
+    "region_id": 89,
+    "mesh": "region_89.glb",
+    "n_vertices": 2316,
+    "n_faces": 4644
+  },
+  "90": {
+    "region_id": 90,
+    "mesh": "region_90.glb",
+    "n_vertices": 1712,
+    "n_faces": 3424
+  },
+  "91": {
+    "region_id": 91,
+    "mesh": "region_91.glb",
+    "n_vertices": 2141,
+    "n_faces": 4286
+  },
+  "92": {
+    "region_id": 92,
+    "mesh": "region_92.glb",
+    "n_vertices": 1602,
+    "n_faces": 3200
+  },
+  "93": {
+    "region_id": 93,
+    "mesh": "region_93.glb",
+    "n_vertices": 2394,
+    "n_faces": 4792
+  },
+  "94": {
+    "region_id": 94,
+    "mesh": "region_94.glb",
+    "n_vertices": 2258,
+    "n_faces": 4520
+  },
+  "95": {
+    "region_id": 95,
+    "mesh": "region_95.glb",
+    "n_vertices": 2550,
+    "n_faces": 5092
+  },
+  "96": {
+    "region_id": 96,
+    "mesh": "region_96.glb",
+    "n_vertices": 2406,
+    "n_faces": 4804
+  },
+  "97": {
+    "region_id": 97,
+    "mesh": "region_97.glb",
+    "n_vertices": 1984,
+    "n_faces": 3960
+  },
+  "98": {
+    "region_id": 98,
+    "mesh": "region_98.glb",
+    "n_vertices": 1823,
+    "n_faces": 3650
+  },
+  "99": {
+    "region_id": 99,
+    "mesh": "region_99.glb",
+    "n_vertices": 2194,
+    "n_faces": 4384
+  },
+  "100": {
+    "region_id": 100,
+    "mesh": "region_100.glb",
+    "n_vertices": 2251,
+    "n_faces": 4502
+  },
+  "101": {
+    "region_id": 101,
+    "mesh": "region_101.glb",
+    "n_vertices": 2728,
+    "n_faces": 5452
+  },
+  "102": {
+    "region_id": 102,
+    "mesh": "region_102.glb",
+    "n_vertices": 2604,
+    "n_faces": 5204
+  },
+  "103": {
+    "region_id": 103,
+    "mesh": "region_103.glb",
+    "n_vertices": 5353,
+    "n_faces": 10718
+  },
+  "104": {
+    "region_id": 104,
+    "mesh": "region_104.glb",
+    "n_vertices": 5547,
+    "n_faces": 11086
+  },
+  "105": {
+    "region_id": 105,
+    "mesh": "region_105.glb",
+    "n_vertices": 4613,
+    "n_faces": 9246
+  },
+  "106": {
+    "region_id": 106,
+    "mesh": "region_106.glb",
+    "n_vertices": 3967,
+    "n_faces": 7938
+  },
+  "107": {
+    "region_id": 107,
+    "mesh": "region_107.glb",
+    "n_vertices": 4022,
+    "n_faces": 8040
+  },
+  "108": {
+    "region_id": 108,
+    "mesh": "region_108.glb",
+    "n_vertices": 3605,
+    "n_faces": 7210
+  },
+  "109": {
+    "region_id": 109,
+    "mesh": "region_109.glb",
+    "n_vertices": 1240,
+    "n_faces": 2488
+  },
+  "110": {
+    "region_id": 110,
+    "mesh": "region_110.glb",
+    "n_vertices": 984,
+    "n_faces": 1960
+  },
+  "111": {
+    "region_id": 111,
+    "mesh": "region_111.glb",
+    "n_vertices": 1230,
+    "n_faces": 2456
+  },
+  "112": {
+    "region_id": 112,
+    "mesh": "region_112.glb",
+    "n_vertices": 1242,
+    "n_faces": 2480
+  },
+  "113": {
+    "region_id": 113,
+    "mesh": "region_113.glb",
+    "n_vertices": 1384,
+    "n_faces": 2768
+  },
+  "114": {
+    "region_id": 114,
+    "mesh": "region_114.glb",
+    "n_vertices": 1197,
+    "n_faces": 2394
+  },
+  "115": {
+    "region_id": 115,
+    "mesh": "region_115.glb",
+    "n_vertices": 1551,
+    "n_faces": 3102
+  },
+  "116": {
+    "region_id": 116,
+    "mesh": "region_116.glb",
+    "n_vertices": 1198,
+    "n_faces": 2400
+  },
+  "117": {
+    "region_id": 117,
+    "mesh": "region_117.glb",
+    "n_vertices": 922,
+    "n_faces": 1840
+  },
+  "118": {
+    "region_id": 118,
+    "mesh": "region_118.glb",
+    "n_vertices": 1104,
+    "n_faces": 2192
+  },
+  "119": {
+    "region_id": 119,
+    "mesh": "region_119.glb",
+    "n_vertices": 1066,
+    "n_faces": 2128
+  },
+  "120": {
+    "region_id": 120,
+    "mesh": "region_120.glb",
+    "n_vertices": 1090,
+    "n_faces": 2172
+  },
+  "121": {
+    "region_id": 121,
+    "mesh": "region_121.glb",
+    "n_vertices": 1734,
+    "n_faces": 3464
+  },
+  "122": {
+    "region_id": 122,
+    "mesh": "region_122.glb",
+    "n_vertices": 1718,
+    "n_faces": 3432
+  },
+  "123": {
+    "region_id": 123,
+    "mesh": "region_123.glb",
+    "n_vertices": 1744,
+    "n_faces": 3484
+  },
+  "124": {
+    "region_id": 124,
+    "mesh": "region_124.glb",
+    "n_vertices": 1728,
+    "n_faces": 3452
+  },
+  "125": {
+    "region_id": 125,
+    "mesh": "region_125.glb",
+    "n_vertices": 2190,
+    "n_faces": 4380
+  },
+  "126": {
+    "region_id": 126,
+    "mesh": "region_126.glb",
+    "n_vertices": 2770,
+    "n_faces": 5568
+  },
+  "127": {
+    "region_id": 127,
+    "mesh": "region_127.glb",
+    "n_vertices": 2449,
+    "n_faces": 4898
+  },
+  "128": {
+    "region_id": 128,
+    "mesh": "region_128.glb",
+    "n_vertices": 2648,
+    "n_faces": 5300
+  },
+  "129": {
+    "region_id": 129,
+    "mesh": "region_129.glb",
+    "n_vertices": 2610,
+    "n_faces": 5220
+  },
+  "130": {
+    "region_id": 130,
+    "mesh": "region_130.glb",
+    "n_vertices": 2400,
+    "n_faces": 4828
+  },
+  "131": {
+    "region_id": 131,
+    "mesh": "region_131.glb",
+    "n_vertices": 2532,
+    "n_faces": 5064
+  },
+  "132": {
+    "region_id": 132,
+    "mesh": "region_132.glb",
+    "n_vertices": 2413,
+    "n_faces": 4826
+  },
+  "133": {
+    "region_id": 133,
+    "mesh": "region_133.glb",
+    "n_vertices": 2083,
+    "n_faces": 4162
+  },
+  "134": {
+    "region_id": 134,
+    "mesh": "region_134.glb",
+    "n_vertices": 2226,
+    "n_faces": 4444
+  },
+  "135": {
+    "region_id": 135,
+    "mesh": "region_135.glb",
+    "n_vertices": 4708,
+    "n_faces": 9420
+  },
+  "136": {
+    "region_id": 136,
+    "mesh": "region_136.glb",
+    "n_vertices": 5023,
+    "n_faces": 10090
+  },
+  "137": {
+    "region_id": 137,
+    "mesh": "region_137.glb",
+    "n_vertices": 3721,
+    "n_faces": 7442
+  },
+  "138": {
+    "region_id": 138,
+    "mesh": "region_138.glb",
+    "n_vertices": 4016,
+    "n_faces": 8040
+  },
+  "139": {
+    "region_id": 139,
+    "mesh": "region_139.glb",
+    "n_vertices": 4499,
+    "n_faces": 8998
+  },
+  "140": {
+    "region_id": 140,
+    "mesh": "region_140.glb",
+    "n_vertices": 5108,
+    "n_faces": 10220
+  },
+  "141": {
+    "region_id": 141,
+    "mesh": "region_141.glb",
+    "n_vertices": 4718,
+    "n_faces": 9432
+  },
+  "142": {
+    "region_id": 142,
+    "mesh": "region_142.glb",
+    "n_vertices": 4461,
+    "n_faces": 8926
+  },
+  "143": {
+    "region_id": 143,
+    "mesh": "region_143.glb",
+    "n_vertices": 4808,
+    "n_faces": 9608
+  },
+  "144": {
+    "region_id": 144,
+    "mesh": "region_144.glb",
+    "n_vertices": 4555,
+    "n_faces": 9118
+  },
+  "145": {
+    "region_id": 145,
+    "mesh": "region_145.glb",
+    "n_vertices": 4080,
+    "n_faces": 8156
+  },
+  "146": {
+    "region_id": 146,
+    "mesh": "region_146.glb",
+    "n_vertices": 4454,
+    "n_faces": 8904
+  },
+  "147": {
+    "region_id": 147,
+    "mesh": "region_147.glb",
+    "n_vertices": 2504,
+    "n_faces": 5020
+  },
+  "148": {
+    "region_id": 148,
+    "mesh": "region_148.glb",
+    "n_vertices": 2269,
+    "n_faces": 4534
+  },
+  "149": {
+    "region_id": 149,
+    "mesh": "region_149.glb",
+    "n_vertices": 2606,
+    "n_faces": 5208
+  },
+  "150": {
+    "region_id": 150,
+    "mesh": "region_150.glb",
+    "n_vertices": 2960,
+    "n_faces": 5908
+  },
+  "151": {
+    "region_id": 151,
+    "mesh": "region_151.glb",
+    "n_vertices": 4388,
+    "n_faces": 8780
+  },
+  "152": {
+    "region_id": 152,
+    "mesh": "region_152.glb",
+    "n_vertices": 4717,
+    "n_faces": 9430
+  },
+  "153": {
+    "region_id": 153,
+    "mesh": "region_153.glb",
+    "n_vertices": 3540,
+    "n_faces": 7076
+  },
+  "154": {
+    "region_id": 154,
+    "mesh": "region_154.glb",
+    "n_vertices": 3786,
+    "n_faces": 7568
+  },
+  "155": {
+    "region_id": 155,
+    "mesh": "region_155.glb",
+    "n_vertices": 5335,
+    "n_faces": 10690
+  },
+  "156": {
+    "region_id": 156,
+    "mesh": "region_156.glb",
+    "n_vertices": 5016,
+    "n_faces": 10032
+  },
+  "157": {
+    "region_id": 157,
+    "mesh": "region_157.glb",
+    "n_vertices": 2832,
+    "n_faces": 5656
+  },
+  "158": {
+    "region_id": 158,
+    "mesh": "region_158.glb",
+    "n_vertices": 2868,
+    "n_faces": 5732
+  },
+  "159": {
+    "region_id": 159,
+    "mesh": "region_159.glb",
+    "n_vertices": 4184,
+    "n_faces": 8360
+  },
+  "160": {
+    "region_id": 160,
+    "mesh": "region_160.glb",
+    "n_vertices": 4144,
+    "n_faces": 8284
+  },
+  "161": {
+    "region_id": 161,
+    "mesh": "region_161.glb",
+    "n_vertices": 3290,
+    "n_faces": 6576
+  },
+  "162": {
+    "region_id": 162,
+    "mesh": "region_162.glb",
+    "n_vertices": 2874,
+    "n_faces": 5740
+  },
+  "163": {
+    "region_id": 163,
+    "mesh": "region_163.glb",
+    "n_vertices": 1970,
+    "n_faces": 3936
+  },
+  "164": {
+    "region_id": 164,
+    "mesh": "region_164.glb",
+    "n_vertices": 1765,
+    "n_faces": 3530
+  },
+  "165": {
+    "region_id": 165,
+    "mesh": "region_165.glb",
+    "n_vertices": 1346,
+    "n_faces": 2688
+  },
+  "166": {
+    "region_id": 166,
+    "mesh": "region_166.glb",
+    "n_vertices": 1371,
+    "n_faces": 2742
+  },
+  "167": {
+    "region_id": 167,
+    "mesh": "region_167.glb",
+    "n_vertices": 1512,
+    "n_faces": 3028
+  },
+  "168": {
+    "region_id": 168,
+    "mesh": "region_168.glb",
+    "n_vertices": 1410,
+    "n_faces": 2816
+  },
+  "169": {
+    "region_id": 169,
+    "mesh": "region_169.glb",
+    "n_vertices": 1630,
+    "n_faces": 3264
+  },
+  "170": {
+    "region_id": 170,
+    "mesh": "region_170.glb",
+    "n_vertices": 1678,
+    "n_faces": 3352
+  },
+  "171": {
+    "region_id": 171,
+    "mesh": "region_171.glb",
+    "n_vertices": 1554,
+    "n_faces": 3104
+  },
+  "172": {
+    "region_id": 172,
+    "mesh": "region_172.glb",
+    "n_vertices": 1591,
+    "n_faces": 3182
+  },
+  "173": {
+    "region_id": 173,
+    "mesh": "region_173.glb",
+    "n_vertices": 1670,
+    "n_faces": 3336
+  },
+  "174": {
+    "region_id": 174,
+    "mesh": "region_174.glb",
+    "n_vertices": 1648,
+    "n_faces": 3292
+  },
+  "175": {
+    "region_id": 175,
+    "mesh": "region_175.glb",
+    "n_vertices": 2486,
+    "n_faces": 4964
+  },
+  "176": {
+    "region_id": 176,
+    "mesh": "region_176.glb",
+    "n_vertices": 2451,
+    "n_faces": 4898
+  },
+  "177": {
+    "region_id": 177,
+    "mesh": "region_177.glb",
+    "n_vertices": 1792,
+    "n_faces": 3572
+  },
+  "178": {
+    "region_id": 178,
+    "mesh": "region_178.glb",
+    "n_vertices": 2572,
+    "n_faces": 5136
+  },
+  "179": {
+    "region_id": 179,
+    "mesh": "region_179.glb",
+    "n_vertices": 2221,
+    "n_faces": 4442
+  },
+  "180": {
+    "region_id": 180,
+    "mesh": "region_180.glb",
+    "n_vertices": 2034,
+    "n_faces": 4060
+  },
+  "181": {
+    "region_id": 181,
+    "mesh": "region_181.glb",
+    "n_vertices": 2374,
+    "n_faces": 4744
+  },
+  "182": {
+    "region_id": 182,
+    "mesh": "region_182.glb",
+    "n_vertices": 2343,
+    "n_faces": 4682
+  },
+  "183": {
+    "region_id": 183,
+    "mesh": "region_183.glb",
+    "n_vertices": 1872,
+    "n_faces": 3740
+  },
+  "184": {
+    "region_id": 184,
+    "mesh": "region_184.glb",
+    "n_vertices": 1639,
+    "n_faces": 3286
+  },
+  "185": {
+    "region_id": 185,
+    "mesh": "region_185.glb",
+    "n_vertices": 2568,
+    "n_faces": 5132
+  },
+  "186": {
+    "region_id": 186,
+    "mesh": "region_186.glb",
+    "n_vertices": 2858,
+    "n_faces": 5712
+  },
+  "187": {
+    "region_id": 187,
+    "mesh": "region_187.glb",
+    "n_vertices": 2650,
+    "n_faces": 5292
+  },
+  "188": {
+    "region_id": 188,
+    "mesh": "region_188.glb",
+    "n_vertices": 2190,
+    "n_faces": 4372
+  },
+  "189": {
+    "region_id": 189,
+    "mesh": "region_189.glb",
+    "n_vertices": 2169,
+    "n_faces": 4338
+  },
+  "190": {
+    "region_id": 190,
+    "mesh": "region_190.glb",
+    "n_vertices": 2826,
+    "n_faces": 5648
+  },
+  "191": {
+    "region_id": 191,
+    "mesh": "region_191.glb",
+    "n_vertices": 3528,
+    "n_faces": 7064
+  },
+  "192": {
+    "region_id": 192,
+    "mesh": "region_192.glb",
+    "n_vertices": 3574,
+    "n_faces": 7148
+  },
+  "193": {
+    "region_id": 193,
+    "mesh": "region_193.glb",
+    "n_vertices": 2849,
+    "n_faces": 5690
+  },
+  "194": {
+    "region_id": 194,
+    "mesh": "region_194.glb",
+    "n_vertices": 2966,
+    "n_faces": 5932
+  },
+  "195": {
+    "region_id": 195,
+    "mesh": "region_195.glb",
+    "n_vertices": 3668,
+    "n_faces": 7340
+  },
+  "196": {
+    "region_id": 196,
+    "mesh": "region_196.glb",
+    "n_vertices": 3954,
+    "n_faces": 7908
+  },
+  "197": {
+    "region_id": 197,
+    "mesh": "region_197.glb",
+    "n_vertices": 4668,
+    "n_faces": 9332
+  },
+  "198": {
+    "region_id": 198,
+    "mesh": "region_198.glb",
+    "n_vertices": 4889,
+    "n_faces": 9786
+  },
+  "199": {
+    "region_id": 199,
+    "mesh": "region_199.glb",
+    "n_vertices": 3680,
+    "n_faces": 7356
+  },
+  "200": {
+    "region_id": 200,
+    "mesh": "region_200.glb",
+    "n_vertices": 3553,
+    "n_faces": 7102
+  },
+  "201": {
+    "region_id": 201,
+    "mesh": "region_201.glb",
+    "n_vertices": 3106,
+    "n_faces": 6216
+  },
+  "202": {
+    "region_id": 202,
+    "mesh": "region_202.glb",
+    "n_vertices": 3086,
+    "n_faces": 6168
+  },
+  "203": {
+    "region_id": 203,
+    "mesh": "region_203.glb",
+    "n_vertices": 4409,
+    "n_faces": 8818
+  },
+  "204": {
+    "region_id": 204,
+    "mesh": "region_204.glb",
+    "n_vertices": 4286,
+    "n_faces": 8560
+  },
+  "205": {
+    "region_id": 205,
+    "mesh": "region_205.glb",
+    "n_vertices": 3875,
+    "n_faces": 7746
+  },
+  "206": {
+    "region_id": 206,
+    "mesh": "region_206.glb",
+    "n_vertices": 3734,
+    "n_faces": 7472
+  },
+  "207": {
+    "region_id": 207,
+    "mesh": "region_207.glb",
+    "n_vertices": 3173,
+    "n_faces": 6346
+  },
+  "208": {
+    "region_id": 208,
+    "mesh": "region_208.glb",
+    "n_vertices": 3105,
+    "n_faces": 6210
+  },
+  "209": {
+    "region_id": 209,
+    "mesh": "region_209.glb",
+    "n_vertices": 3134,
+    "n_faces": 6264
+  },
+  "210": {
+    "region_id": 210,
+    "mesh": "region_210.glb",
+    "n_vertices": 3478,
+    "n_faces": 6952
+  },
+  "211": {
+    "region_id": 211,
+    "mesh": "region_211.glb",
+    "n_vertices": 1076,
+    "n_faces": 2156
+  },
+  "212": {
+    "region_id": 212,
+    "mesh": "region_212.glb",
+    "n_vertices": 1254,
+    "n_faces": 2512
+  },
+  "213": {
+    "region_id": 213,
+    "mesh": "region_213.glb",
+    "n_vertices": 844,
+    "n_faces": 1692
+  },
+  "214": {
+    "region_id": 214,
+    "mesh": "region_214.glb",
+    "n_vertices": 1151,
+    "n_faces": 2302
+  },
+  "215": {
+    "region_id": 215,
+    "mesh": "region_215.glb",
+    "n_vertices": 3260,
+    "n_faces": 6552
+  },
+  "216": {
+    "region_id": 216,
+    "mesh": "region_216.glb",
+    "n_vertices": 2665,
+    "n_faces": 5326
+  },
+  "217": {
+    "region_id": 217,
+    "mesh": "region_217.glb",
+    "n_vertices": 3210,
+    "n_faces": 6412
+  },
+  "218": {
+    "region_id": 218,
+    "mesh": "region_218.glb",
+    "n_vertices": 3166,
+    "n_faces": 6328
+  },
+  "219": {
+    "region_id": 219,
+    "mesh": "region_219.glb",
+    "n_vertices": 2572,
+    "n_faces": 5148
+  },
+  "220": {
+    "region_id": 220,
+    "mesh": "region_220.glb",
+    "n_vertices": 2297,
+    "n_faces": 4606
+  },
+  "221": {
+    "region_id": 221,
+    "mesh": "region_221.glb",
+    "n_vertices": 2137,
+    "n_faces": 4274
+  },
+  "222": {
+    "region_id": 222,
+    "mesh": "region_222.glb",
+    "n_vertices": 2150,
+    "n_faces": 4304
+  },
+  "223": {
+    "region_id": 223,
+    "mesh": "region_223.glb",
+    "n_vertices": 2545,
+    "n_faces": 5098
+  },
+  "224": {
+    "region_id": 224,
+    "mesh": "region_224.glb",
+    "n_vertices": 2804,
+    "n_faces": 5608
+  },
+  "225": {
+    "region_id": 225,
+    "mesh": "region_225.glb",
+    "n_vertices": 2154,
+    "n_faces": 4304
+  },
+  "226": {
+    "region_id": 226,
+    "mesh": "region_226.glb",
+    "n_vertices": 1548,
+    "n_faces": 3088
+  },
+  "227": {
+    "region_id": 227,
+    "mesh": "region_227.glb",
+    "n_vertices": 2890,
+    "n_faces": 5776
+  },
+  "228": {
+    "region_id": 228,
+    "mesh": "region_228.glb",
+    "n_vertices": 3430,
+    "n_faces": 6856
+  },
+  "229": {
+    "region_id": 229,
+    "mesh": "region_229.glb",
+    "n_vertices": 2344,
+    "n_faces": 4684
+  },
+  "230": {
+    "region_id": 230,
+    "mesh": "region_230.glb",
+    "n_vertices": 2322,
+    "n_faces": 4640
+  },
+  "231": {
+    "region_id": 231,
+    "mesh": "region_231.glb",
+    "n_vertices": 1420,
+    "n_faces": 2836
+  },
+  "232": {
+    "region_id": 232,
+    "mesh": "region_232.glb",
+    "n_vertices": 1412,
+    "n_faces": 2820
+  },
+  "233": {
+    "region_id": 233,
+    "mesh": "region_233.glb",
+    "n_vertices": 1334,
+    "n_faces": 2676
+  },
+  "234": {
+    "region_id": 234,
+    "mesh": "region_234.glb",
+    "n_vertices": 1655,
+    "n_faces": 3318
+  },
+  "235": {
+    "region_id": 235,
+    "mesh": "region_235.glb",
+    "n_vertices": 982,
+    "n_faces": 1960
+  },
+  "236": {
+    "region_id": 236,
+    "mesh": "region_236.glb",
+    "n_vertices": 1022,
+    "n_faces": 2036
+  },
+  "237": {
+    "region_id": 237,
+    "mesh": "region_237.glb",
+    "n_vertices": 2664,
+    "n_faces": 5376
+  },
+  "238": {
+    "region_id": 238,
+    "mesh": "region_238.glb",
+    "n_vertices": 1666,
+    "n_faces": 3312
+  },
+  "239": {
+    "region_id": 239,
+    "mesh": "region_239.glb",
+    "n_vertices": 2099,
+    "n_faces": 4198
+  },
+  "240": {
+    "region_id": 240,
+    "mesh": "region_240.glb",
+    "n_vertices": 2063,
+    "n_faces": 4150
+  },
+  "241": {
+    "region_id": 241,
+    "mesh": "region_241.glb",
+    "n_vertices": 1903,
+    "n_faces": 3806
+  },
+  "242": {
+    "region_id": 242,
+    "mesh": "region_242.glb",
+    "n_vertices": 1664,
+    "n_faces": 3364
+  },
+  "243": {
+    "region_id": 243,
+    "mesh": "region_243.glb",
+    "n_vertices": 1910,
+    "n_faces": 3812
+  },
+  "244": {
+    "region_id": 244,
+    "mesh": "region_244.glb",
+    "n_vertices": 1505,
+    "n_faces": 3006
+  },
+  "245": {
+    "region_id": 245,
+    "mesh": "region_245.glb",
+    "n_vertices": 2098,
+    "n_faces": 4192
+  },
+  "246": {
+    "region_id": 246,
+    "mesh": "region_246.glb",
+    "n_vertices": 1997,
+    "n_faces": 3998
+  }
+}

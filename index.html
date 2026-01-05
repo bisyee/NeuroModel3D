@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroStream 3D | fMRI Visualizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #121212;
+      --panel-bg: rgba(25, 25, 25, 0.9);
+      --accent: #00d2ff;
+      --text: #eeeeee;
+      --border: rgba(255, 255, 255, 0.1);
+    }
+
+    body { margin: 0; overflow: hidden; background: #050505; font-family: 'Inter', sans-serif; color: var(--text); }
+
+    #data-panel {
+      position: absolute; top: 20px; left: 20px; width: 420px;
+      display: flex; flex-direction: column; gap: 15px; z-index: 10;
+    }
+
+    #timeline-container {
+        position: relative;
+        padding-top: 40px; 
+    }
+
+  #slider-scent {
+      position: absolute;
+      top: 10px;
+      left: 15px; 
+      right: 15px; 
+      height: 40px;
+      z-index: 1;
+      pointer-events: none; 
+  }
+
+  #timeSlider {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      margin: 0;
+      background: transparent;
+  }
+
+  #timeSlider::-webkit-slider-runnable-track {
+      background: rgba(255, 255, 255, 0.1);
+      height: 2px;
+  }
+      
+    .glass-card {
+      background: var(--panel-bg);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+
+    #chart { width: 100%; height: 220px; }
+
+    #region-info1 {
+      font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.6;
+    }
+    #region-info1 strong { color: var(--accent); }
+
+    #sidebar-right {
+      position: absolute; top: 20px; right: 20px; width: 260px;
+      display: flex; flex-direction: column; gap: 15px; max-height: 90vh; z-index: 10;
+    }
+
+    .control-group { margin-bottom: 15px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+    .control-group:last-child { border: none; }
+
+    label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; color: #888; }
+
+    select, button {
+      width: 100%; padding: 10px; border-radius: 6px; border: 1px solid var(--border);
+      background: #222; color: white; cursor: pointer; transition: 0.2s;
+    }
+    button:hover { background: #333; border-color: var(--accent); }
+    #snapshotBtn { background: var(--accent); color: #000; font-weight: 600; border: none; }
+
+    #snapshot-sidebar {
+      overflow-y: auto; display: flex; flex-direction: column; gap: 10px;
+    }
+    .snapshot-card {
+      background: #1a1a1a; border: 1px solid var(--border); border-radius: 6px; padding: 5px;
+    }
+    .snapshot-card img { width: 100%; border-radius: 4px; transition: 0.3s; cursor: pointer; }
+    .snapshot-card img:hover { filter: brightness(1.2); }
+
+    #timeline-container {
+      position: absolute; bottom: 20px; left: 13%; transform: translateX(-50%);
+      width: 20%; min-width: 100px; z-index: 10;
+    }
+
+    #region-hover {
+      position: fixed; z-index: 10000; pointer-events: none;
+      background: var(--accent); color: #000; padding: 4px 10px;
+      border-radius: 4px; font-weight: 600; font-size: 12px; display: none;
+    }
+
+    #coords-display {
+      position: absolute; bottom: 50px; left: 500px;
+      font-family: 'JetBrains Mono', monospace; background: rgba(0,0,0,0.5);
+      padding: 4px 8px; border-radius: 4px; font-size: 11px;
+    }
+
+    #timeSlider { width: 100%; cursor: pointer; accent-color: var(--accent); }
+  </style>
+</head>
+<body>
+
+  <div id="region-hover"></div>
+
+  <div id="data-panel">
+    <div class="glass-card">
+      <div id="chart">Click a region to explore timeseries</div>
+    </div>
+    <div id="region-info1" class="glass-card">
+      <em>Select a brain region to initialize BOLD tracking...</em>
+    </div>
+    <div id="coords-display">MNI: 0.0, 0.0, 0.0</div>
+  </div>
+
+  <div id="sidebar-right">
+    <div class="glass-card">
+      <div class="control-group">
+        <label>Playback</label>
+        <button id="playButton">▶ PLAY / PAUSE</button>
+      </div>
+
+      <div class="control-group">
+        <label>Selection Mode</label>
+        <div style="display:flex; gap: 5px; align-items: center;">
+            <input type="checkbox" id="selectionMode"> <span style="font-size:12px">Multi-Select</span>
+        </div>
+        <button id="clearSelection" style="margin-top:8px; font-size:10px;">CLEAR SELECTION</button>
+      </div>
+
+      <div class="control-group">
+        <label>Filter Network</label>
+        <select id="atlas-filter">
+          <option value="all">Full Brain</option>
+          <option value="Motor">Motor Network</option>
+          <option value="Visual">Visual Network</option>
+          <option value="Auditory">Auditory Network</option>
+          <option value="Frontal">Frontal Lobe</option>
+        </select>
+      </div>
+
+      <button id="snapshotBtn">📸 TAKE SNAPSHOT</button>
+    </div>
+
+    <div id="snapshot-sidebar">
+      </div>
+  </div>
+
+  <div id="timeline-container" class="glass-card">
+    <div style="display:flex; justify-content: space-between; margin-bottom: 5px;">
+        <label>Timeline Index: <span id="timeLabel" style="color:var(--accent)">0</span></label>
+        <label>Activation Threshold: <span id="thresholdLabel" style="color:var(--accent)">0</span>%</label>
+    </div>
+    
+    <div style="position:relative; height: 30px;">
+        <div id="slider-scent" style="position:absolute; width:100%; height:100%; opacity: 0.3; pointer-events: none;"></div>
+        <input id="timeSlider" type="range" min="0" max="100" value="0" style="position:relative; top: 5px;"/>
+    </div>
+    
+    <input id="thresholdSlider" type="range" min="0" max="100" value="0" style="width:100%; margin-top: 10px;" />
+  </div>
+
+  <div id="legend-container" style="position:absolute; bottom:20px; left:65%; font-size:10px; color:#888;">
+    <div id="legend-chart"></div>
+    <div style="text-align: center; margin-top:5px;">Z-SCORE MAGNITUDE</div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</body>
+</html>

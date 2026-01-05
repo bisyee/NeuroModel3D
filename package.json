@@ -1,0 +1,23 @@
+{
+  "name": "ioi-proj",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  "start": "parcel index.html --open",
+  "build": "parcel build index.html"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.3",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  },
+  "dependencies": {
+    "three": "^0.182.0"
+  },
+  "staticFiles": {
+    "staticPath": "region_meshes",
+    "staticOutDir": "region_meshes"
+  }
+}
