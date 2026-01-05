@@ -2,12 +2,6 @@
 
 **NeuroStream 3D** is an interactive web-based platform for exploring 4D fMRI data. It combines 3D spatial brain mapping with real-time functional connectivity analysis, utilizing "Scented Widgets" to guide temporal navigation.
 
-##  Research Contribution
-This project extends existing work in Information Design and Neuroinformatics by:
-* **Scented Navigation:** Integrating Global Mean Signal waveforms into the time-slider to reduce "blind scrubbing" (*Willett et al., 2007*).
-* **Network-Centric Visualization:** Utilizing the **Brainnetome Atlas (246 ROIs)** for parcellated network analysis rather than raw voxel-wise "blobs."
-* **Real-time Connectivity:** Calculating dynamic Pearson Correlations on-the-fly between user-selected regions.
-
 ---
 
 ##  Tech Stack
@@ -49,4 +43,5 @@ This creates a "data card" on the right sidebar.Clicking the snapshot image will
 ## Contributors
 Bisera Nikoloska
 Kristjan Volk
+
 
