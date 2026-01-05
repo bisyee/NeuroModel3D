@@ -16,7 +16,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/neurostream-3d.git](https://github.com/bisyee/ioi.git)
+   git clone [https://github.com/your-username/neurostream-3d.git](https://github.com/bisyee/NeuroModel3D.git)
    cd ioi
 2. **Clone the repository**
    ```bash
@@ -43,5 +43,6 @@ This creates a "data card" on the right sidebar.Clicking the snapshot image will
 ## Contributors
 Bisera Nikoloska
 Kristjan Volk
+
 
 
